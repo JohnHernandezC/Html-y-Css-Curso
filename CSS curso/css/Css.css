@@ -1,0 +1,47 @@
+h1{
+
+    color: blue;
+}
+p{
+    color: rgb(19, 14, 14);
+    background-color:#8eecf5;
+    padding: 0.5em 0.5em 0.5em;
+    padding: 15px; /* amplia a acorta el fondo*/
+    border: 10px solid #cfbaf0;
+    margin-top:20px;/* esta es la separacion entre los elementos o etiquetas*/
+    margin-bottom:10px;
+    margin-left:15px;
+    margin-right:30px;
+    margin: 0.5em 0.5em ;/* lo mismo de arriba pero mas corto*/
+
+}
+
+/* estilos para los links*/
+/*a:link{
+color: #b9fbc0;
+}
+a:visited{
+    color: #fbf8cc;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a:active{
+    color: #f1c0e8;
+    text-decoration: underline;
+}*/
+/*---------------------------------------- */
+
+a:link, a:visited{
+background-color: #3f37c9;
+color: #fff;
+padding: 15px 15px;
+text-decoration: none;
+text-align: center;
+display: inline-block;/*muy importante si loos archivos quedan uno encima del otro*/
+}
+
+a:hover, a:active{
+    color: rgb(66, 10, 10);
+}
