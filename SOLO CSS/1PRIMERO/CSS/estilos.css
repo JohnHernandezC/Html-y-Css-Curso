@@ -1,0 +1,21 @@
+/*Esto es para crear un selector universal*/
+*{
+    background-color: beige;
+}
+
+
+/*Esto es para crear un elemnto por id*/
+#titulo{
+    color:aquamarine;
+    text-align: center;
+
+}
+
+/*Esto es para crear una clase qeu se puede usar mas de una vez */
+.centrar_texto{
+text-align: center;
+}
+h1, h2, p{
+    color:rgb(8, 23, 65);
+    text-align: center;
+}
